@@ -1,29 +1,46 @@
 import { Link } from "react-router-dom";
-import data from "../data";
+// import data from "../data";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
-function HomeScreen(){
-    return <div>
-        <h1>Featured Products</h1>
-        <div className="products">
-          {data.products.map((product) => (
-            <div className="product" key={product.slug}>
+function HomeScreen() {
+  const [products, setProducts] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const result = await axios.get('/api/products');
+      setProducts(result.data);
+    };
+    fetchData();
+  }, []);
+
+  return (
+    <div> 
+      <h1>Featured Products</h1>
+      <div className="products">
+        {products.map((product) => (
+          <div className="product" key={product.slug}>
+            <Link to={`/product/ ${product.slug}`}>
+              <img src={product.image} alt={product.name} />
+            </Link>
+            <div className="product-info">
               <Link to={`/product/ ${product.slug}`}>
-                <img src={product.image} alt={product.name} />
-              </Link>
-              <div className="product-info">
-              <Link to={`/product/ ${product.slug}`}>       
                 <p>{product.name}</p>
-                </Link>
-                <p><strong>${product.price}</strong></p>
-                <button>Add to Cart</button>
-              </div>
+              </Link>
+              <p>
+                <strong>${product.price}</strong>
+              </p>
+              <button>Add to Cart</button>
             </div>
-          ))}
-        </div>
-    </div>;
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default HomeScreen;
 
-
 // "Link to" is replaced with "a href" to avoid refreshing of multipage
+// Using Axios Now, as it fetch data from backend
+// We changed line 18, from "data.products.map()" to just products.map(). As,
+// we don't require static data from "data", we are fetching data from backend.
