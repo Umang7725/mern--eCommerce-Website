@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
-import {BrowserRouter,Link,Route, Routes} from 'react-router-dom';
+import {BrowserRouter,Route, Routes} from 'react-router-dom';
 
 // import data from "./data";
 import HomeScreen from './screens/HomeScreen';
@@ -33,7 +33,7 @@ function App() {
         </Container>
       </main>
       <footer>
-        <div className='text-center'>Created by Umang Raj LPU 12018505</div>
+        <div className='text-center'>©️Created by Umang Raj LPU 12018505</div>
       </footer>
     </div>
   </BrowserRouter>
