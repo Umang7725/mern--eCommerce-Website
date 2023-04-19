@@ -1,7 +1,7 @@
 const data={
     products: [
         {   
-            _id:'1',
+            // _id:'1',
             name: 'Nike Slim SHirt',
             slug: 'Nike-slim-shirt',
             category: 'Shirts',
@@ -14,20 +14,20 @@ const data={
             description: 'high quality product',
         },
         {
-            _id:'2',
+            // _id:'2',
             name: 'Addidas Slim SHirt',
             slug: 'Addidas-slim-shirt',
             category: 'Shirts',
             image: '/images/p2.jpg',
             price:780,
-            countInStock: 0,
+            countInStock: 17,
             brand: 'Addidas',
             rating: 4.5,
             numReviews : 10,
             description: 'high quality product',
         },
         {
-            _id:'3',
+            // _id:'3',
             name: 'Nike Slim Pant',
             slug: 'Nike-slim-pant',
             category: 'Shirts',
@@ -40,13 +40,13 @@ const data={
             description: 'high quality product',
         },
         {
-            _id:'4',
+            // _id:'4',
             name: 'Puma Slim SHirt',
             slug: 'Puma-slim-shirt',
             category: 'Shirts',
             image: '/images/p4.jpg',
             price:789,
-            countInStock: 10,
+            countInStock: 0,
             brand: 'Puma',
             rating: 4.5,
             numReviews : 10,

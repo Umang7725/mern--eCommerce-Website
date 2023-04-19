@@ -65,8 +65,14 @@
     2. add email and password
     3. add signin button -->
 
-     Connecting To MongoDB Database
+     <!-- Connecting To MongoDB Database
     1. creating atlas monogodb database
     2. installing local mongodb     database
     3. npm install mongoose
-    4. connecting to mongodb database
+    4. connecting to mongodb database -->
+
+     Seeding Sample Products
+    1. creating Product model
+    2. creating seed route
+    3. use route in server.js
+    4. seeding sample product
