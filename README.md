@@ -60,7 +60,13 @@
     2. click handler for remove item
     3. click handler for checkout -->
 
-    Creating a Signin Screen
+    <!-- Creating a Signin Screen
     1. create sign in form
     2. add email and password
-    3. add signin button
+    3. add signin button -->
+
+     Connecting To MongoDB Database
+    1. creating atlas monogodb database
+    2. installing local mongodb     database
+    3. npm install mongoose
+    4. connecting to mongodb database
