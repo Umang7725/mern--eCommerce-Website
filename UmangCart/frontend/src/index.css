@@ -46,6 +46,7 @@ main{
 .product img{
   width: 100%;
   max-width: 400px;
+  height: 100px;
   /* width: "679px";
   height: "829px" */
 }
@@ -56,4 +57,8 @@ main{
 .rating span{
   color: rgb(236, 186, 62);
   /* color: rgb(147, 47, 240); */
+}
+
+.img-large{
+  max-width:100%;
 }

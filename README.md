@@ -25,7 +25,11 @@
 3. we installed bootstrap, react-bootstrap, react-router-bootstrap
  -->
 
-Creating Product and Rating Componenet
+<!-- Creating Product and Rating Componenet
 1. creating Rating Component
 2. creating product component
-3. used rating component in product component 
+3. used rating component in product component  -->
+
+Creating Product Details Screen
+    1. fetch product from backend
+    2. creating 3 columns for image, info and action
