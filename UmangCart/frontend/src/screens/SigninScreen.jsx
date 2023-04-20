@@ -53,7 +53,7 @@ export default function SigninScreen() {
       <Form onSubmit={submitHandler}>
         <Form.Group className="mb-3" controlId="email">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" required />
+          {/* <Form.Control type="email" required /> */}
           <Form.Control
             type="email"
             required
