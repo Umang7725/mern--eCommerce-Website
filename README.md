@@ -96,7 +96,11 @@
     2. handle save shipping address
     3. add checkout wizard bar -->
 
-    Creating Sign Up Screen
+    <!-- Creating Sign Up Screen
     1. create input forms
     2. handle submit
-    3. create backend api
+    3. create backend api -->
+
+    Implementing Select Payment Method Screen
+    1. create input forms
+    2. handle submit
