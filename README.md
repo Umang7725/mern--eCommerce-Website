@@ -101,6 +101,11 @@
     2. handle submit
     3. create backend api -->
 
-    Implementing Select Payment Method Screen
+    <!-- Implementing Select Payment Method Screen
     1. create input forms
-    2. handle submit
+    2. handle submit -->
+
+     Creating Place Order Screen
+    1. show cart items, payment and address
+    2. handle place order action
+    3. create order create api
