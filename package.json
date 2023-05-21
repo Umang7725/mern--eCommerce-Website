@@ -1,10 +1,10 @@
 {
-  "name": "ecommerce-website",
+  "name": "umangcart",
   "version": "1.0.0",
-  "description": "<img width=\"957\" alt=\"e-1a\" src=\"https://user-images.githubusercontent.com/100988384/233939182-bba409b9-7e33-4cd2-a016-ca1541d01cb7.png\">",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd UmangCart/backend && npm install && cd ../frontend && npm install && npm run build --force",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build --force",
     "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
