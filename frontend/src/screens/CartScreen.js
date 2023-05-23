@@ -39,14 +39,14 @@ export default function CartScreen() {
   return (
     <div>
       <Helmet>
-        <title>Shopping Cart</title>
+        <title>UmangCart</title>
       </Helmet>
-      <h1>Shopping Cart</h1>
+      <h1>UmangCart</h1>
       <Row>
         <Col md={8}>
           {cartItems.length === 0 ? (
             <MessageBox>
-              Cart is empty. <Link to="/">Go Shopping</Link>
+              UmangCart is empty.😕 <Link to="/">Go Shopping 🙂</Link>
             </MessageBox>
           ) : (
             <ListGroup>
